@@ -1,0 +1,312 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1330.8350830078125px;
+    margin: 0 auto;
+}
+body {
+    background-color: #5B0017;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 45px;
+}
+.nav-list {
+    display: flex;
+    gap: 85px;
+    margin-bottom: 100px;
+}
+.nav-list li {
+    list-style: none;
+}
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Cotoris',sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+
+}
+.nav-list li a:hover {
+    color: #CC9D2F;
+    transition: 0.5s;
+}
+.nav-btn {
+    background-color: #CC9D2F;
+    padding: 17px 35px;
+    margin-bottom: 100px;
+    color: #5B0017;
+    font-family: 'Cotoris',sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    border: 3px solid #CC9D2F;
+}
+.nav-btn:hover {
+    cursor: pointer;
+    background: none;
+    color: #CC9D2F;
+    transition: 0.5s;
+}
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn img {
+    margin-bottom: 100px;
+}
+.header {
+    height: 882.999938964847px;
+    background-image: url(./img/Rectangle.png);
+    background-repeat: no-repeat;
+}
+h1 {
+    color: #FFFFFF;
+    font-family: 'Cotoris',sans-serif;
+    font-weight: 400;
+    font-size: 120px;
+    background-color: #5B0017B2;
+    position: absolute;
+    margin-top: 30px;
+    width: 945px;
+    line-height: 130px;
+    height: 252px;
+}
+.header-content p {
+    font-family: 'Inter',sans-serif;
+    font-weight: 300;
+    font-size: 23px;
+    color: #FFFFFF;
+    margin-top: 300px;
+    margin-bottom: 40px;
+    width: 454px;
+    height: 56px;
+    line-height: 25px;
+}
+.header-main {
+    display: flex;
+    position: relative;
+}
+.header-img {
+    margin-left: 240px;
+}
+.header-content button {
+    padding: 17px 35px;
+    background: none;
+    border: 3px solid #CC9D2F;
+    font-family: 'Cotoris',sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #CC9D2F;
+    cursor: pointer;
+}
+.header-content button:hover {
+    background-color: #CC9D2F;
+    color: #5B0017;
+    transition: 0.5s;
+}
+.vector {
+    display: block;
+    margin-top: 77px;
+}
+.star {
+    position: absolute;
+    right: 20px;
+    top: -25px;
+}
+.venue {
+    margin-top: 118px;
+    display: flex;
+    gap: 38px;
+    background-image: url(./img/Rectangle\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.venue h2 {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 70px;
+    font-family: 'Cotoris',sans-serif;
+    width: 893px;
+}
+.venue h3 {
+    font-family: 'Inter',sans-serif;
+    font-weight: 300;
+    font-size: 23px;
+    color: #fff;
+    margin-top: 16px;
+    margin-bottom: 79px;
+}
+.venue button {
+    background-color: #CC9D2F;
+    border: #CC9D2F 3px solid;
+    padding: 17px 33px;
+    font-family: 'Cotoris',sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #5B0017;
+    margin-bottom: 55px;
+}
+.venue button:hover {
+    cursor: pointer;
+    transition: 0.5s;
+    background: none;
+    color: #CC9D2F;
+}
+.venue-right div{
+    display: flex;
+    gap: 37px;
+    margin-left: -40px;
+}
+.venue-right div img {
+    width: 151.1580920722071px;
+    height: 156.1665758183953px;
+}
+.venue-right div::before {
+    content: "";
+    border: 3px solid #CC9D2F;
+    transform: rotate(90deg);
+    height: 468.00000000000176px;
+    position: relative;
+    top: -40px;
+    left: 275px;
+}
+.comment {
+    width: 1330.8350830078125px;
+    display: flex;
+    margin-top: 80px;
+}
+.comment-left h2 {
+    font-family: 'Inter',sans-serif;
+    font-weight: 400;
+    color: #243054;
+    width: 385px;
+    size: 21px;
+    display: flex;
+}
+.comment-left {
+    width: 561.021728515625px;
+    background-color: #CC9D2F;
+    height: 555.6870727539062px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 133px;
+}
+.man {
+    display: flex;
+    gap: 210px;
+}
+.man h3 {
+    color: #243054;
+    font-family: 'Inter',sans-serif;
+    font-weight: 500;
+    font-size: 13.32px;
+
+}
+.man h4 {
+    color: #243054;
+    font-size: 9.99px;
+    font-family: 'Inter',sans-serif;
+    font-weight: 500;
+    opacity: 60%;
+    position: relative;
+}
+.man h4::before {
+    content: "";
+    border: 0.1px solid #00646D;
+    transform: rotate(90deg);
+    height: 363.71166992187636px;
+    position: absolute;
+    top: -140px;
+    left: 180px;
+    
+}
+.menu {
+    height: 871.1703027859757px;
+    width: 1498px;
+    margin: 0 auto;
+    background: url(./img/image\ 10.png);
+    background-repeat: no-repeat;
+    margin-top: 120px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: -10px;
+}
+.menu img {
+    margin-top: 163px;
+}
+.menu h2 {
+    color: #FFFFFF;
+    font-family: 'Cotoris',sans-serif;
+    font-weight: 400;
+    font-size: 70px;
+    width: 948.791259765625px;
+
+}
+.menu button {
+    background-color: #CC9D2F;
+    border: #CC9D2F 3px solid;
+    padding: 17px 33px;
+    font-family: 'Cotoris',sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #5B0017;
+    margin-top: 55px;
+}
+.menu button:hover {
+    cursor: pointer;
+    transition: 0.5s;
+    background: none;
+    color: #CC9D2F;
+}
+footer {
+    width: 1498px;
+    margin: 0 auto;
+    background-color: #CC9D2F;
+}
+.footer-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-logo {
+    margin-top: 54px;
+    margin-bottom: 59px;
+}
+.footer-list ul li a {
+    color: #5B0017;
+}
+.footer-list ul li a:hover {
+    color: #9b1234;
+    transition: 0.5s;
+}
+hr {
+    border: 1px #243054 solid;
+    width: 100%;
+    opacity: 15%;
+    margin-bottom: 22px;
+}
+.footer-nav h3 {
+    font-family: 'Inter',sans-serif;
+    font-weight: 400;
+    font-size: 14.96px;
+}
+.c {
+    display: flex;
+    gap: 334px;
+    margin-bottom: 22px;
+}
+.actions {
+    display: flex;
+    gap: 22px;
+    align-items: center;
+}
